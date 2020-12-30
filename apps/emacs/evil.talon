@@ -37,6 +37,9 @@ paste above: "P"
 repeat: "."
 again: ";"
 
+forward: "f"
+til: "t"
+
 select: "v"
 select line: "V"
 
@@ -53,19 +56,6 @@ last select: "gv"
 action(edit.file_start): "gg"
 action(edit.file_end): "G"
 
-yank: "y"
-yank line: "yy"
-yank: "y"
-paste: "p"
-paste above: "P"
-repeat: "."
-again: ";"
-yank line: "yy"
-paste: "p"
-paste above: "P"
-repeat: "."
-again: ";"
-
 format: key(escape =)
 format line: key(escape = =)
 format file: key(escape = i g)
@@ -77,7 +67,7 @@ paragraph: "p"
 
 # adj
 inner: "i"
-arround: "a"
+around: "a"
 
 # nav
 lend: "$"

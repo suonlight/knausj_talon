@@ -15,6 +15,7 @@ emacs quit: key(escape space q q)
 quit: key(q)
 break: key(ctrl-g)
 action(edit.extend_line_start): key(ctrl-u)
+translate: key(escape space x g t)
 
 last buffer: key(escape space tab)
 last search: key(escape space ')
@@ -35,9 +36,9 @@ action(app.tab_next): key(escape g t)
 action(app.tab_previous): key(escape g T)
 
 # org-mode
-note today: " nrdt"
-note yesterday: " nrdy"
-note tomorrow: " nrdm"
+note [today]: key(escape space n r d t)
+note yesterday: key(escape space n r d y)
+note tomorrow: key(escape space n r d m)
 
 # projects
 switch project: key(escape space p p)
