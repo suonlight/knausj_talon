@@ -6,7 +6,6 @@ settings():
     key_wait = 6.0
     speech.timeout = 0.300
 
-tag(): editor
 tag(): user.tabs
 tag(): user.splits
 
@@ -23,6 +22,10 @@ open sentry: key(escape g o s)
 hub open file: key(escape space g o o)
 hub open pr: key(escape g o g)
 
+# misc
+quit: key(q)
+break: key(ctrl-g)
+
 # org-mode
 note today: " nrdt"
 note yesterday: " nrdy"
@@ -32,15 +35,6 @@ note tomorrow: " nrdm"
 switch project: key(escape space p p)
 project shell: key(f12)
 shell: key(cmd-t)
-
-tab one: key(cmd-1)
-tab next:
-      key(escape)
-      insert("gt")
-tab last:
-      key(escape)
-      insert("gT")
-tab close: key(cmd-w)
 
 # buffers
 buffer last:
@@ -86,7 +80,6 @@ update code:
 
 db migrate: key(r d m enter)
 
-# enter: key(enter)
-# escape: key(escape)
-quit: key(q)
-break: key(ctrl-g)
+# zoom
+action(edit.zoom_in): key(cmd-+)
+action(edit.zoom_out): key(cmd--)
