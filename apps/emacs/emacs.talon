@@ -60,24 +60,20 @@ split window below: key(ctrl-w s)
 split window right: key(ctrl-w v)
 
 # magit
-magit status: key(space g s)
+git status: key(space g s)
 commit: key(c c)
 stage: key(s)
 unstage: key(u)
 push: key(p p)
-log: key(l l)
-create pull request: key(@ c p)
+show log: key(l l)
+create pr: key(@ c p)
 
 abort: key(ctrl-c ctrl-k)
-confirm: key(ctrl-c ctrl-c)
+hit confirm: key(ctrl-c ctrl-c)
 
 # terminal
 clear: key(c enter)
 bundle install: key(b i enter)
-
-go {user.folders}:
-	"cd {folders} && ls"
-	key(enter)
 
 postrges start:
       insert("pg_ctl start")
