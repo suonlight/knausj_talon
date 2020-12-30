@@ -63,7 +63,3 @@ action(user.messaging_upload_file): key(cmd-u)
 emote <user.text>: "{text}"
 toggle left sidebar: key(cmd-shift-d)
 toggle right sidebar: key(cmd-.)
-
-take [a] note:
-    user.switcher_focus("Emacs")
-    key(escape space X n)
