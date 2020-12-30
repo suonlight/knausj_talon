@@ -41,6 +41,9 @@ switch project: key(escape space p p)
 project shell: key(f12)
 shell: key(cmd-t)
 
+run test:
+    key(escape , t b)
+
 # buffers
 buffer last:
       insert(" ")
