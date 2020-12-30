@@ -73,6 +73,7 @@ click confirm: key(ctrl-c ctrl-c)
 
 # terminal
 clear: key(c enter)
+exit: key(ctrl-d)
 bundle install: key(b i enter)
 
 database start:
@@ -81,6 +82,10 @@ database start:
 
 database stop:
       insert("pg_ctl stop")
+      key(enter)
+
+database connect:
+      insert("psql -d postgres")
       key(enter)
 
 git update:
