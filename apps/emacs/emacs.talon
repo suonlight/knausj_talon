@@ -8,11 +8,21 @@ settings():
 
 tag(): user.tabs
 tag(): user.splits
+tag(): edit
 
-# define some voice commands
+# misc
+quit: key(q)
+break: key(ctrl-g)
+action(edit.extend_line_start): key(ctrl-u)
+
+last buffer: key(escape space tab)
+last search: key(escape space ')
+
 find file: key(ctrl-p)
 switch buffer: key(cmd-b)
+shell: key(cmd-t)
 
+# personal
 open jira: key(escape g o j)
 open log: key(escape g o l)
 open tracing: key(escape g o t)
@@ -21,11 +31,6 @@ open ci: key(escape g o c)
 open sentry: key(escape g o s)
 hub open file: key(escape space g o o)
 hub open pr: key(escape g o g)
-
-# misc
-quit: key(q)
-break: key(ctrl-g)
-action(edit.extend_line_start): key(ctrl-u)
 
 # tabs
 action(app.tab_next): key(escape g t)
@@ -36,18 +41,11 @@ note today: " nrdt"
 note yesterday: " nrdy"
 note tomorrow: " nrdm"
 
-# projects" pp"
+# projects
 switch project: key(escape space p p)
 project shell: key(f12)
-shell: key(cmd-t)
-
-run test:
-    key(escape , t b)
-
-# buffers
-buffer last:
-      insert(" ")
-      key(tab)
+run test: key(escape , t b)
+toggle test: key(escape space p a)
 
 # files
 file save: key(ctrl-x ctrl-s)
@@ -65,8 +63,8 @@ stage: key(s)
 unstage: key(u)
 push: key(p p)
 show log: key(l l)
-create pr: key(@ c p)
 discard: key(x)
+create pr: key(@ c p)
 
 click abort: key(ctrl-c ctrl-k)
 click confirm: key(ctrl-c ctrl-c)
@@ -99,5 +97,5 @@ git update:
 db migrate: key(r d m enter)
 
 # zoom
-action(edit.zoom_in): key(cmd-+)
+action(edit.zoom_in): key(cmd-=)
 action(edit.zoom_out): key(cmd--)
