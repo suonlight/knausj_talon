@@ -27,6 +27,10 @@ quit: key(q)
 break: key(ctrl-g)
 action(edit.extend_line_start): key(ctrl-u)
 
+# tabs
+action(app.tab_next): key(escape g t)
+action(app.tab_previous): key(escape g T)
+
 # org-mode
 note today: " nrdt"
 note yesterday: " nrdy"
