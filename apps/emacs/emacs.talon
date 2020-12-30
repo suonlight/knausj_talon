@@ -8,6 +8,7 @@ settings():
 
 tag(): editor
 tag(): user.tabs
+tag(): user.splits
 
 # define some voice commands
 find file: key(ctrl-p)
@@ -54,10 +55,6 @@ file delete: key(escape space f D)
 
 # window
 window: key(ctrl-w)
-window close: key(cmd-w)
-
-split window below: key(ctrl-w s)
-split window right: key(ctrl-w v)
 
 # magit
 git status: key(space g s)
@@ -68,8 +65,8 @@ push: key(p p)
 show log: key(l l)
 create pr: key(@ c p)
 
-abort: key(ctrl-c ctrl-k)
-hit confirm: key(ctrl-c ctrl-c)
+click abort: key(ctrl-c ctrl-k)
+click confirm: key(ctrl-c ctrl-c)
 
 # terminal
 clear: key(c enter)
@@ -89,8 +86,7 @@ update code:
 
 db migrate: key(r d m enter)
 
-
-enter: key(enter)
+# enter: key(enter)
+# escape: key(escape)
 quit: key(q)
 break: key(ctrl-g)
-escape: key(escape)
