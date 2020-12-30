@@ -7,6 +7,7 @@ settings():
     speech.timeout = 0.300
 
 tag(): editor
+tag(): user.tabs
 
 # define some voice commands
 find file: key(ctrl-p)
