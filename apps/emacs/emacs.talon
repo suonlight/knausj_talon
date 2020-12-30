@@ -29,8 +29,6 @@ open tracing: key(escape g o t)
 open monitor: key(escape g o m)
 open ci: key(escape g o c)
 open sentry: key(escape g o s)
-hub open file: key(escape space g o o)
-hub open pr: key(escape g o g)
 
 # tabs
 action(app.tab_next): key(escape g t)
@@ -86,6 +84,8 @@ database connect:
       insert("psql -d postgres")
       key(enter)
 
+git open file: key(escape space g o o)
+git open pr: key(escape g o g)
 git update:
       key(g s t a)
       key(enter)
