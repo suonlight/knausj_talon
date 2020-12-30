@@ -25,6 +25,7 @@ hub open pr: key(escape g o g)
 # misc
 quit: key(q)
 break: key(ctrl-g)
+action(edit.extend_line_start): key(ctrl-u)
 
 # org-mode
 note today: " nrdt"
@@ -51,7 +52,7 @@ file delete: key(escape space f D)
 window: key(ctrl-w)
 
 # magit
-git status: key(space g s)
+git status: key(escape space g s)
 commit: key(c c)
 stage: key(s)
 unstage: key(u)
@@ -67,11 +68,15 @@ click confirm: key(ctrl-c ctrl-c)
 clear: key(c enter)
 bundle install: key(b i enter)
 
-postrges start:
+database start:
       insert("pg_ctl start")
       key(enter)
 
-update code:
+database stop:
+      insert("pg_ctl stop")
+      key(enter)
+
+git update:
       key(g s t a)
       key(enter)
       key(g u p)
