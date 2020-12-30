@@ -58,6 +58,7 @@ unstage: key(u)
 push: key(p p)
 show log: key(l l)
 create pr: key(@ c p)
+discard: key(x)
 
 click abort: key(ctrl-c ctrl-k)
 click confirm: key(ctrl-c ctrl-c)

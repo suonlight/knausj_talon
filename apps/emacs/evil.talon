@@ -27,8 +27,8 @@ change line: "cc"
 
 back word: "b"
 
-undo: "u"
-redo: key(ctrl-r)
+undo: key(escape u)
+redo: key(escape ctrl-r)
 
 yank: "y"
 yank line: "yy"
@@ -40,6 +40,8 @@ again: ";"
 select: "v"
 select line: "V"
 
+indent: ">"
+unindent: "<"
 indent line: ">>"
 unindent line: "<<"
 
@@ -64,6 +66,8 @@ paste above: "P"
 repeat: "."
 again: ";"
 
+format line: key(escape = =)
+format file: key(escape = i g)
 
 # nouns
 word: "w"
