@@ -73,3 +73,9 @@ action(browser.submit_form):
 
 action(browser.toggle_dev_tools):
 	key(cmd-alt-i)
+
+take [a] task:
+    key(ctrl-shift-e)
+
+take [a] note:
+    key(ctrl-shift-n)
