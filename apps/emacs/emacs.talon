@@ -11,6 +11,7 @@ tag(): user.splits
 tag(): edit
 
 # misc
+emacs quit: key(escape space q q)
 quit: key(q)
 break: key(ctrl-g)
 action(edit.extend_line_start): key(ctrl-u)
@@ -66,6 +67,10 @@ create pr: key(@ c p)
 
 click abort: key(ctrl-c ctrl-k)
 click confirm: key(ctrl-c ctrl-c)
+
+# text
+pronounce it: key(space x s)
+snake case: key(space x i u)
 
 # terminal
 clear: key(c enter)

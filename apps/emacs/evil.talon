@@ -48,7 +48,7 @@ unindent line: "<<"
 toggle case: "~"
 
 last insert: "gi"
-last resume: "gv"
+last select: "gv"
 
 action(edit.file_start): "gg"
 action(edit.file_end): "G"
@@ -66,6 +66,7 @@ paste above: "P"
 repeat: "."
 again: ";"
 
+format: key(escape =)
 format line: key(escape = =)
 format file: key(escape = i g)
 
