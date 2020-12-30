@@ -21,7 +21,6 @@ last search: key(escape space ')
 
 find file: key(ctrl-p)
 switch buffer: key(cmd-b)
-shell: key(cmd-t)
 
 # personal
 open jira: key(escape g o j)
@@ -42,7 +41,6 @@ note tomorrow: " nrdm"
 
 # projects
 switch project: key(escape space p p)
-project shell: key(f12)
 run test: key(escape , t b)
 toggle test: key(escape space p a)
 
@@ -73,6 +71,13 @@ pronounce it: key(space x s)
 snake case: key(space x i u)
 
 # terminal
+shell new: key(cmd-t)
+shell open: key(f12)
+shell close: key(f12)
+shell kill: key(escape space b d cmd-w)
+shell open right: key(escape , v)
+shell open down: key(escape , s)
+
 clear: key(c enter)
 exit: key(ctrl-d)
 bundle install: key(b i enter)
