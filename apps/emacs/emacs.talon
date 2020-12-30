@@ -42,6 +42,7 @@ note tomorrow: " nrdm"
 # projects
 switch project: key(escape space p p)
 run test: key(escape , t b)
+run last test: key(escape , t l)
 toggle test: key(escape space p a)
 
 # files
