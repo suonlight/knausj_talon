@@ -45,6 +45,7 @@ switch project: key(escape space p p)
 run test: key(escape , t b)
 run last test: key(escape , t l)
 toggle test: key(escape space p a)
+project search: key(escape space /)
 
 # files
 file save: key(ctrl-x ctrl-s)
@@ -57,8 +58,13 @@ window: key(ctrl-w)
 
 # magit
 git status: key(escape space g s)
+commit all:
+    key(g g s y)
+    key(c c)
 commit: key(c c)
 stage: key(s)
+stage all:
+    key(g g s)
 unstage: key(u)
 push: key(p p)
 show log: key(l l)
