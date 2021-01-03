@@ -38,7 +38,7 @@ repeat: "."
 again: ";"
 
 forward: "f"
-til: "t"
+until: "t"
 
 select: "v"
 select line: "V"

@@ -3,7 +3,12 @@ from typing import Set
 from talon import Module, Context, actions
 import sys
 
-default_alphabet = "air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split(
+# My experience:
+#   fine - conflicts with find
+#   jury  - suddenly always matching with three or tree
+#   pit  - conflicts with page
+#   yank - conflicts with vim command
+default_alphabet = "air bat cap drum each fin gust harp sit jail crunch look made near odd peck quench red sun trap urge vest whale plex yell zip".split(
     " "
 )
 letters_string = "abcdefghijklmnopqrstuvwxyz"
@@ -129,7 +134,7 @@ punctuation_words = {
     "period": ".",
     "semicolon": ";",
     "colon": ":",
-    "forward slash": "/",
+    "slash": "/",
     "question mark": "?",
     "exclamation mark": "!",
     "exclamation point": "!",
@@ -213,9 +218,10 @@ simple_keys = [
 ]
 
 alternate_keys = {
-    "delete": "backspace",
+    "backspace": "backspace",
     "forward delete": "delete",
-    #'junk': 'backspace',
+    "junk": "backspace",
+    "nuke": "delete",
 }
 keys = {k: k for k in simple_keys}
 keys.update(alternate_keys)
