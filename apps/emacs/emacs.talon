@@ -12,6 +12,7 @@ tag(): edit
 
 # misc
 emacs quit: key(escape space q q)
+emacs fullscreen: key(alt-f10)
 quit: key(q)
 break: key(ctrl-g)
 action(edit.extend_line_start): key(ctrl-u)
@@ -48,6 +49,7 @@ project search: key(escape space /)
 # buffers
 buffer switch: key(cmd-b)
 buffer last: key(escape space tab)
+buffer kill: key(escape space b d)
 
 # files
 file save: key(ctrl-x ctrl-s)
@@ -63,6 +65,7 @@ window: key(ctrl-w)
 git status: key(escape space g s)
 commit all:
     key(g g s y)
+    sleep(100ms)
     key(c c)
 commit: key(c c)
 stage: key(s)
