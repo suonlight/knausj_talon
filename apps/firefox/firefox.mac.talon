@@ -79,3 +79,5 @@ take [a] task:
 
 take [a] note:
     key(ctrl-shift-n)
+
+copy (address | url): key(escape y y)

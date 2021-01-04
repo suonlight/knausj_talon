@@ -36,9 +36,9 @@ action(app.tab_next): key(escape g t)
 action(app.tab_previous): key(escape g T)
 
 # org-mode
-note [today]: key(escape space n r d t)
-note yesterday: key(escape space n r d y)
-note tomorrow: key(escape space n r d m)
+note [today]: key(cmd-1 escape space n r d t)
+note yesterday: key(cmd-1 escape space n r d y)
+note tomorrow: key(cmd-1 escape space n r d m)
 
 # projects
 switch project: key(escape space p p)
@@ -67,6 +67,8 @@ stage all:
     key(g g s)
 unstage: key(u)
 push: key(p p)
+checkout: key(b b)
+branch new: key(b c)
 show log: key(l l)
 discard: key(x)
 create pr: key(@ c p)
@@ -102,8 +104,11 @@ database connect:
       insert("psql -d postgres")
       key(enter)
 
+database migrate: key(r d m enter)
+
 git open file: key(escape space g o o)
 git open pr: key(escape g o g)
+git go back: key(g c o space - enter)
 git update:
       key(g s t a)
       key(enter)
@@ -112,7 +117,6 @@ git update:
       key(g s t p)
       key(enter)
 
-db migrate: key(r d m enter)
 
 # zoom
 action(edit.zoom_in): key(cmd-=)

@@ -25,7 +25,7 @@ delete line: "dd"
 change: "c"
 change line: "cc"
 
-back word: "b"
+backward: "b"
 
 undo: key(escape u)
 redo: key(escape ctrl-r)
