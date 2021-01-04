@@ -17,11 +17,9 @@ break: key(ctrl-g)
 action(edit.extend_line_start): key(ctrl-u)
 translate: key(escape space x g t)
 
-last buffer: key(escape space tab)
-last search: key(escape space ')
+resume search: key(escape space ')
 
 find file: key(ctrl-p)
-switch buffer: key(cmd-b)
 
 # personal
 open jira: key(escape g o j)
@@ -41,17 +39,22 @@ note yesterday: key(cmd-1 escape space n r d y)
 note tomorrow: key(cmd-1 escape space n r d m)
 
 # projects
-switch project: key(escape space p p)
 run test: key(escape , t b)
 run last test: key(escape , t l)
 toggle test: key(escape space p a)
+project switch: key(escape space p p)
 project search: key(escape space /)
+
+# buffers
+buffer switch: key(cmd-b)
+buffer last: key(escape space tab)
 
 # files
 file save: key(ctrl-x ctrl-s)
 file copy: key(escape space f C)
 file rename: key(escape space f R)
 file delete: key(escape space f D)
+file path: key(escape space f y)
 
 # window
 window: key(ctrl-w)
