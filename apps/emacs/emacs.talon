@@ -17,6 +17,8 @@ quit: key(q)
 break: key(ctrl-g)
 action(edit.extend_line_start): key(ctrl-u)
 translate: key(escape space x g t)
+jump definition: key(g d)
+jump back: key(ctrl-o)
 
 resume search: key(escape space ')
 
