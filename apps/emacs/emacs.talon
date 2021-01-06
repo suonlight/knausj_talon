@@ -12,7 +12,7 @@ tag(): edit
 
 # misc
 emacs quit: key(escape space q q)
-emacs fullscreen: key(alt-f10)
+emacs screen: key(alt-f10)
 quit: key(q)
 break: key(ctrl-g)
 action(edit.extend_line_start): key(ctrl-u)

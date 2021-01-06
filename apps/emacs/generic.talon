@@ -1,5 +1,10 @@
 os: mac
 -
+open dictionary:
+    user.switcher_focus("Firefox")
+    key(cmd-t)
+    insert("https://www.oxfordlearnersdictionaries.com/")
+    key(enter)
 
 note [today]:
     user.switcher_focus("Emacs")
