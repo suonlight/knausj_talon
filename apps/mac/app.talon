@@ -38,3 +38,6 @@ action(app.window_open):
 	
 action(app.window_previous):
 	key(cmd-shift-`)
+
+toggle input source:
+    key(cmd-shift-v)
