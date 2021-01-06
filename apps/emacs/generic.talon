@@ -27,13 +27,3 @@ go to meeting:
     edit.copy()
     user.switcher_focus("Emacs")
     key(escape g o C)
-
-git ask review:
-    key(y y)
-    user.switcher_focus("Slack")
-    key(cmd-t)
-    insert("#eh-code-review")
-    key(enter)
-    sleep(300ms)
-    insert("Please help me review this PR ")
-    edit.paste()
