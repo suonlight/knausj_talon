@@ -6,6 +6,25 @@ open dictionary:
     insert("https://www.oxfordlearnersdictionaries.com/")
     key(enter)
 
+open jira:
+    user.switcher_focus("Emacs")
+    key(escape g o j)
+open log:
+    user.switcher_focus("Emacs")
+    key(escape g o l)
+open tracing:
+    user.switcher_focus("Emacs")
+    key(escape g o t)
+open monitor:
+    user.switcher_focus("Emacs")
+    key(escape g o m)
+open ci:
+    user.switcher_focus("Emacs")
+    key(escape g o c)
+open sentry:
+    user.switcher_focus("Emacs")
+    key(escape g o s)
+
 note [today]:
     user.switcher_focus("Emacs")
     key(cmd-1 escape space n r d t)
