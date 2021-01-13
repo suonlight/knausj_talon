@@ -22,6 +22,8 @@ jump back: key(ctrl-o)
 
 resume search: key(escape space ')
 
+run it: key(space !)
+run line: key(escape shift-v space ! escape)
 find file: key(ctrl-p)
 
 # personal
@@ -44,9 +46,10 @@ note tomorrow: key(cmd-1 escape space n r d m)
 # projects
 run test: key(escape , t b)
 run last test: key(escape , t l)
-toggle test: key(escape space p a)
+toggle test: key(space p a)
 project switch: key(escape space p p)
-project search: key(escape space /)
+project open: key(escape space p p)
+project search: key(escape space *)
 
 # buffers
 buffer switch: key(cmd-b)
@@ -54,7 +57,7 @@ buffer last: key(escape space tab)
 buffer kill: key(escape space b d)
 
 # files
-file save: key(ctrl-x ctrl-s)
+file save: key(escape ctrl-x ctrl-s)
 file copy: key(escape space f C)
 file rename: key(escape space f R)
 file delete: key(escape space f D)

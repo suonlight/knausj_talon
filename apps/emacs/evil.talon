@@ -24,6 +24,7 @@ delete line: "dd"
 
 change: "c"
 change line: "cc"
+replace: "r"
 
 backward: "b"
 

@@ -81,3 +81,8 @@ take [a] note:
     key(ctrl-shift-n)
 
 copy (address | url): key(escape y y)
+
+tab new it:
+	mouse_click(1)
+    sleep(100ms)
+    key(down enter)
