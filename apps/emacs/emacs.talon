@@ -55,7 +55,7 @@ project search: key(escape space *)
 buffer switch: key(cmd-b)
 buffer last: key(escape space tab)
 buffer kill: key(escape space b d)
-buffer save: key(espase ctrl-x ctrl-s)
+buffer save: key(escape ctrl-x ctrl-s)
 
 # files
 file save: key(escape ctrl-x ctrl-s)
@@ -128,6 +128,7 @@ git update:
       key(enter)
       key(g s t p)
       key(enter)
+git blame: key(space g b)
 
 # org mode
 timer start: key(space t t)
