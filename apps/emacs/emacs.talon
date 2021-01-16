@@ -55,6 +55,7 @@ project search: key(escape space *)
 buffer switch: key(cmd-b)
 buffer last: key(escape space tab)
 buffer kill: key(escape space b d)
+buffer save: key(espase ctrl-x ctrl-s)
 
 # files
 file save: key(escape ctrl-x ctrl-s)
@@ -84,8 +85,8 @@ show log: key(l l)
 discard: key(x)
 create pr: key(@ c p)
 
-click abort: key(ctrl-c ctrl-k)
-click confirm: key(ctrl-c ctrl-c)
+abort it: key(ctrl-c ctrl-k)
+confirm it: key(ctrl-c ctrl-c)
 
 # text
 pronounce it: key(space x s)
