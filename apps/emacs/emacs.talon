@@ -93,7 +93,7 @@ snake case: key(space x i u)
 
 # terminal
 shell new: key(cmd-t)
-shell open: key(f12)
+shell (close | open): key(f12)
 shell close: key(f12)
 shell kill: key(escape space b d cmd-w)
 shell open right: key(escape , v)
@@ -128,6 +128,8 @@ git update:
       key(g s t p)
       key(enter)
 
+# org mode
+timer start: key(space t t)
 
 # zoom
 action(edit.zoom_in): key(cmd-=)

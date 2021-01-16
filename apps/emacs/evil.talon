@@ -43,6 +43,7 @@ until: "t"
 
 select: "v"
 select line: "V"
+surround: "s"
 
 indent: ">"
 unindent: "<"

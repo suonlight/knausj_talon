@@ -86,3 +86,5 @@ tab new it:
 	mouse_click(1)
     sleep(100ms)
     key(down enter)
+
+shell (close | open): key(f12)
