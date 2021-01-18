@@ -3,6 +3,7 @@ app: firefox
 -
 tag(): browser
 tag(): user.tabs
+tag(): edit
 
 #action(browser.address):
 
@@ -88,3 +89,10 @@ tab new it:
     key(down enter)
 
 shell (close | open): key(f12)
+
+find it:
+    edit.copy()
+    sleep(200ms)
+    key(cmd-t)
+    edit.paste()
+    key(enter)

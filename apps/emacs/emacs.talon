@@ -22,6 +22,9 @@ jump back: key(ctrl-o)
 
 resume search: key(escape space ')
 
+toggle comment: key(g c)
+toggle comment line: key(g c c)
+
 run it: key(space !)
 run line: key(escape shift-v space ! escape)
 find file: key(ctrl-p)
